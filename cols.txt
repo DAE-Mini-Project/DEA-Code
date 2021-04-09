@@ -1,0 +1,166 @@
+w5_hhid			Household_Identifier				Household identifier
+w5_a_sample			Sample_Origin					-- From which sample did this respondent originate?
+w5_a_dob_m			Month_DOB						b1_m - Date of birth (month)
+w5_a_dob_y			Year_DOB						b1_y - Date of birth (year)
+w5_a_gen			Gender						b2 - Gender
+w5_a_popgrp			Population_Group						b3 - Population group
+w5_a_mar			Married_Cohabitation						b4_2 - Formally married or living with a partner
+w5_a_mary_m			Years_Married						b5_1 - No. of years married to this partner
+w5_a_mary_l			Years_Cohabiting						b5_2 - No. of years living with this partner
+w5_a_curmarst			Current_Relationship_Status						b6_2 - Currently married, widowed, divorced or separated?
+w5_a_bhbrth			Given_Birth						c1_2 - Ever given birth?
+w5_a_bhcnt1con			Birth_Count						c1_3 - How many children have you given birth to in total?
+w5_a_bhlive			Biological_Children_Living						c1_4 - Have biological children living with you?
+w5_a_mthtertyn			Mother_Degrees						d8a - Mother completed diplomas, certificates or degrees?
+w5_a_mthtert			Mother_Highest_Tertiary						d8b - Highest level of tertiary education that mother successfully completed
+w5_a_fthtert_o			Father_Highest_Tertiary						d18b_o - Other: Highest level of tertiary education father successfully complete
+w5_a_em1			Employment_Payment						eb1 - Are you currently being paid a regular wage/salary; part time/full time?
+w5_a_em1strty			Primary_Occupation						eb2_y - Primary occupation start year
+w5_a_em1inc			Primary_Gross_Income_Month						eb9 - Gross income for primary occupation last month
+w5_a_em1pay			Primary_Net_Income_Month						eb10 - Net income for primary occupation last month
+w5_a_em1inc_cat		Main_Job_Income_Category						eb11_cat - Main job income category, created from brackets
+w5_a_em1hrs			Work_Week_Hours						eb12 - Average work week (hours) at primary occupation
+w5_a_em1prf			Rec_Share_Profit_Year						eb13_2_1 - Received share of profit in last 12 months?	
+w5_a_em1prf_a			Share_Profit_Year						eb13_2_2 - Share of profit amount in last 12 months	
+w5_a_em1prflm			Rec_Share_Profit_Month						eb13_2_3 - Received share of profit in last month?	
+w5_a_em1prflm_a		Share_Profit_Month						eb13_2_4 - Share of profit amount in last month	
+w5_a_em1bon			Rec_Bonus_Year						eb13_3_1 - Received other bonus in the last 12 months?
+w5_a_em1bon_a			Other_Bonus_Year						eb13_3_2 - Other bonus amount in last 12 months	
+w5_a_em1bonlm			Rec_Bonus_Month						eb13_3_3 - Received other bonus in last month?	
+w5_a_em1bonlm_a		Other_Bonus_Month						eb13_3_4 - Other bonus amount in last month	
+w5_a_em1pcrt			Rec_Extra_Income_Year						eb13_4_1 - Received extra income on piece rate basis in last 12 months?	
+w5_a_em1pcrt_a			Extra_Income_Year						eb13_4_2 - Extra income on piece rate basis amount in last 12 months	
+w5_a_em1pcrtlm			Rec_Extra_Income_Month						eb13_4_3 - Received extra income on piece rate basis in last month?	
+w5_a_em1pcrtlm_a		Extra_Income_Month						eb13_4_4 - Extra income on piece rate basis amount in last month
+w5_a_em2			Have_Secondary_Occupation						eb16 - Existence of secondary occupation?
+w5_a_em2inc			Secondary_Gross_Income						eb22 - Gross income in secondary occupation	
+w5_a_em2pay			Secondary_Net_Income						eb23 - Net income in secondary occupation
+w5_a_em2inc_cat		Secondary_Income_Category						eb24_cat - Second job income category, created from brackets
+w5_a_ems			Is_Self_Employed						ec1 - Existence of self-employment?
+w5_a_emssll			Net_After_Liabilities						ec7_2 - Net worth of business after liquidation credit, breakeven or debt	
+w5_a_emslft			Amount_Left_Over						ec7_3 - How much would be left over?
+w5_a_emsincfr_a		Month_Take_Home_Salary						ec15_2 - How much was last month's take home salary from all businesses?
+w5_a_incgovpen			Pension						f1_1_1 - Recipient of state (RSA) pension?	
+w5_a_incgovpen_v		Pension_Amount						f1_1_2 - Amount received from state (RSA) pension	
+w5_a_incdis			Disability_Grant						f1_2_1 - Recipient of disability grant?	
+w5_a_incdis_v			Disability_Grant_Amount						f1_2_2 - Amount received from disability grant	
+w5_a_incchld			Child_Support						f1_3_1 - Recipient of child support grant?	
+w5_a_incchld_v			Child_Support_Amount						f1_3_2 - Amount received from child support grant	
+w5_a_incfos			Foster_Care_Grant						f1_4_1 - Recipient of foster care grant?	
+w5_a_incfos_v			Foster_Care_Grant_Amount						f1_4_2 - Amount received from foster care grant	
+w5_a_inccare			Dependency_Grant						f1_5_1 - Recipient of care dependency grant?	
+w5_a_inccare_v			Dependency_Grant_Amount						f1_5_2 - Amount received from care dependency grant	
+w5_a_incaid			Grant_In_Aid						f1_21_1 - Recipient of grant in aid?	
+w5_a_incaid_v			Grant_In_Aid_Amount						f1_21_2 - Amount received from grant in aid	
+w5_a_incwar			War_Veterans_Pension						f1_6_1 - Recipient of war veterans pension?	
+w5_a_incwar_v			War_Veterans_Pension_Amount						f1_6_2 - Amount received from war veterans pension	
+w5_a_incuif			UIF						f1_7_1 - Recipient of (unemployment insurance) UIF?	
+w5_a_incuif_v			UIF_Amount						f1_7_2 - Amount received from (unemployment insurance) UIF	
+w5_a_incwc			Workers_Compensation						f1_8_1 - Recipient of workerâ€™s compensation?	
+w5_a_incwc_v			Workers_Compensation_Amount						f1_8_2 - Amount received from workerâ€™s compensation	
+w5_a_incpfnd			Provident_Fund						f1_9_1 - Recipient of pension or provident fund?	
+w5_a_incpfnd_v			Provident_Fund_Amount						f1_9_2 - Amount received from pension or provident fund	
+w5_a_incret			Private_Retirement_Annuity						f1_10_1 - Recipient of private retirement annuity?	
+w5_a_incret_v			Private_Retirement_Annuity_Amount						f1_10_2 - Amount received from private retirement annuity	
+w5_a_incretp			Retirement_Package						f1_11_1 - Recipient of retirement gratuity/package?	
+w5_a_incretp_v			Retirement_Package_Amount						f1_11_2 - Amount received from retirement gratuity/package	
+w5_a_incrnt			Rental_Income						f1_12_1 - Recipient of rental income?	
+w5_a_incrnt_v			Rental_Income_Amount						f1_12_2 - Amount received from rental income	
+w5_a_incint			Interest_Earnings						f1_13_1 - Recipient of interest earnings?	
+w5_a_incint_v			Interest_Earnings_Amount						f1_13_2 - Amount received from interest earnings	
+w5_a_incretr			Retrenchment_Package						f1_14_1 - Recipient of retrenchment package?	
+w5_a_incretr_v			Retrenchment_Package_Amount						f1_14_2 - Amount received from retrenchment package	
+w5_a_incinh			Inheritances						f1_15_1 - Recipient of inheritances?	
+w5_a_incinh_v			Inheritances_Amount						f1_15_2 - Amount received from inheritances	
+w5_a_inclob			Lobola						f1_16_1 - Recipient of lobola/bride wealth?	
+w5_a_inclob_v			Lobola_Amount						f1_16_2 - Amount received from lobola/bride wealth	
+w5_a_incgif			Gifts						f1_17_1 - Recipient of gifts?	
+w5_a_incgif_v			Gifts_Amount						f1_17_2 - Amount received from gifts	
+w5_a_incloan			Loan_Repayments						f1_18_1 - Recipient of loan repayments?	
+w5_a_incloan_v			Loan_Repayments_Amount						f1_18_2 - Amount received from loan repayments	
+w5_a_incsale			Sale_Household_Goods						f1_19_1 - Recipient of income from sale of household goods?	
+w5_a_incsale_v			Sale_Household_Goods_Amount						f1_19_2 - Amount received from sale of household goods	
+w5_a_inco			Other_Income						f1_20_1 - Recipient of other income?	
+w5_a_inco_o			Other_Income_Recipient						f1_20_o - Other: Recipient of other income	
+w5_a_inco_v			Other_Income_Value						f1_20_2 - Amount received from other income	
+w5_a_cr			Non_Household_Residents_Contributions						f3_1 - Contributions received from non-household residents?
+w5_a_edschgrd			Highest_Grade_Completed						h1 - Highest school grade completed
+w5_a_edschyr			Year_Highest_Grade_Completed						h2_1 - Year in which respondent completed highest grade
+w5_a_edschage			Age_Highest_Grade_Completed						h2_2 - Age at which respondent completed highest grade
+w5_a_ednsc			Highest_Grade_Completed_Pass_Type						h3_1 - Did you pass NSC with a bachelors pass, a diploma pass, or a NSC pass?
+w5_a_edexemp			Matric_University_Exemption						h3_2 - Did you pass matric with or without a university exemption?
+w5_a_edschmth			Math_Highest_Grade_Completed						h7 - Highest school grade in mathematics completed
+w5_a_edschmth_o		Other_Math_Highest_Grade_Completed						h7_o - Other: Highest school grade in mathematics completed
+w5_a_edter			Tertiary_Completed						h8 - Respondent has successfully completed some form of tertiary studies?
+w5_a_edterlev			Highest_Tertiary_Completed						h9 - Highest level of tertiary education completed
+w5_a_edterlev_o		Other_Highest_Tertiary_Completed						h9_o - Other: Highest level of tertiary education completed
+w5_a_edteryr			Year_Tertiary_Completed						h12 - Year in which respondent successfully completed tertiary studies
+w5_a_edrep			Repeated_School_Grades						h13 - The respondent repeated school grades?
+w5_a_ed17cur			Currently_Enrolled_School						h15a - Respondent currently enrolled in school or classes?
+w5_a_ed17curlev_o		Other_Currently_Enrolled_School						h17_17_o - Other: Educational level respondent is currently enrolled in 2017
+w5_a_edlitcomp			Computer_Literate						h29 - Respondent is computer literate?
+w5_a_edlitrden			English_Reading_Level						h34 - Respondent's reading level in English
+w5_a_edlitwrten		English_Writing_Level						h35 - Respondent's writing level in English
+w5_a_fwbrelinc			Household_Income_Classification						m2 - Income classification of household
+w5_a_fwbstp15			Household_Income_Step_15_Years						m3_1 - Income step of household when 15 years-old
+w5_a_fwbstp5yr			Household_Income_Step_In_5_Years						m3_4 - Income step of household in 5 years' time
+w5_a_fwbinc5yr			Household_Expected_Income_In_5_Years						m4 - Expected income of household in 5 years' time
+w5_a_recinh			Income_Inheritance						g1 - Received income from inheritance in the last four years?
+w5_a_recjob			Income_Job_Payout						g3 - Received income from Job related payout in the last four years?
+w5_a_recprof			Income_Property_Sale						g4 - Received income from profit from sale of property in the last four years?
+w5_a_recfin			Income_Financial_Product						g5 - Received income from financial product in the last four years?
+w5_a_reclob			Income_Lobola						g6 - Received income from lobola in the last four years?
+w5_a_recoth			Income_Other_Payout						g7 - Received income from any other large payout in the last four years?
+w5_a_ownveh			Vehicle_Owner						g8_1_1 - Ownership of a motor vehicle(including bakkie or truck)?
+w5_a_ownveh_v			Resale_Vehicle						g8_1_2 - Current resale value of motor vehicle(including bakkie or truck)
+w5_a_ownmot			Motorcycle_Owner						g8_2_1 - Ownership of a motorcycle/scooter?
+w5_a_ownmot_v			Resale_Motorcycle						g8_2_2 - Current resale value of motorcycle/scooter
+w5_a_dtbnd			Has_Home_Loan						g11_1 - Has a home loan/bond?
+w5_a_dtbnd_b			Home_Loan_Balance						g11_3 - Remaining outstanding balance on home loan/bond
+w5_a_dtbnd_joint		Home_Loan_Joint_Or_Sole						g11_4 - Is the debt in your name only or jointly with someone else?
+w5_a_ownoth_ind		Other_Property						g11_8 - Do you own any other properties or land? Include any foreign properties.
+w5_a_ownowdtot_indshare	Other_Property_Balance						g11_13b - Amount of debt you personally owe on all these properties?
+w5_a_dtveh			Vehicle_Payment						g12_1 - Have a vehicle finance (car repayment)?
+w5_a_dtveh_b			Vehicle_Payment_Balance						g12_3 - What is the outstanding balance on your vehicle finance (car repayment)?
+w5_a_dtveh_joint		Vehicle_Payment_Joint_Or_Sole						g12_4 - Vehicle finance debt in your name only or jointly with someone else?
+w5_a_dtbnk			Bank_Personal_Loan						g13_1 - Has a personal loan from a bank?
+w5_a_dtbnk_b			Bank_Personal_Loan_Balance						g13_3 - Remaining outstanding balance on loan from a bank
+w5_a_dtmic			Micro_Lender_Loan						g14_1 - Has a personal loan from a micro-lender?
+w5_a_dtmic_b			Micro_Lender_Loan_Balance						g14_3 - Remaining outstanding balance on personal loan from a micro-lender
+w5_a_dtstubnk			Bank_Study_Loan						g15_1 - Has a study loan with a bank?
+w5_a_dtstubnk_b		Bank_Study_Loan_Balance						g15_3 - Remaining outstanding balance on study loan with a bank
+w5_a_dtstuo			Other_Study_Loan						g16_1 - Has a study loan with an institution other than a bank?
+w5_a_dtstuo_b			Other_Study_Loan_Balance						g16_3 - Remaining outstanding balance on study loan from non-bank institution
+w5_a_dtcre			Credit_Card						g17_1 - Has a credit card?
+w5_a_dtcre_b			Credit_Card_Balance						g17_3 - Remaining outstanding balance on credit card
+w5_a_dtstr			Store_Card						g18_1 - Has a store card?
+w5_a_dtstr_b			Store_Card_Balance						g18_3 - Remaining outstanding balance on store card
+w5_a_dthp			Hire_Purchase_Agreement						g19_1 - Has a hire purchase agreement?
+w5_a_dthp_b			Hire_Purchase_Agreement_Balance						g19_3 - Remaining outstanding balance on hire purchase agreement
+w5_a_dtflloan			Family_Member_Loan						g20_1 - Has a loan from a family member?
+w5_a_dtflloan_b		Family_Member_Loan_Balance						g20_3 - Remaining outstanding balance on loan from a family member
+w5_a_dtfrloan			Friend_Loan						g21_1 - Has a loan from friend?
+w5_a_dtfrloanbal		Friend_Loan_Balance						g21_3 - Remaining outstanding balance on loan from a friend
+w5_a_dtmsh			Mashonisa_Loan						g22_1 - Has a loan with a mashonisa?
+w5_a_dtmsh_b			Mashonisa_Loan_Balance						g22_3 - Remaining outstanding balance on loan with a mashonisa
+w5_a_dtemploan			Employer_Loan						g23_1 - Has a loan from an employer?
+w5_a_dtemploan_b		Employer_Loan_Balance						g23_3 - Remaining outstanding balance on loan from an employer
+w5_a_dtunpdtax			Unpaid_Tax						g24_1 - Has unpaid tax, including PAYE, property taxes and VAT?
+w5_a_dtunpdtax_b		Unpaid_Tax_Balance						g24_3 - Remaining outstanding balance on unpaid tax, including PAYE etc.
+w5_a_dtserarr			Monthly_Arrears						g25_1 - Has arrears in service and other monthly bills?
+w5_a_dtserarr_b		Monthly_Arrears_Balance						g25_3 - Remaining outstanding balance on arrears in service and other monthly bi	
+w5_a_dtoth1			Other_Debts						g25_1_1 - Has other debts (specify)?
+w5_a_dtoth1_o			Other_Other_Debts						g25_1_1_o - Other: Has other debts?
+w5_a_dtoth1_b			Other_Debts_Balance						g25_1_3 - Remaining balance on other debts
+w5_a_aspen			Pension_Annuity						g27_1 - Has a pension or retirement annuity?
+w5_a_aspen_v			Pension_Annuity_Amount						g27_2 - Current cash value of pension or retirement annuity
+w5_a_aspen_cat			Pension_Annuity_Category						g27_cat - Cash value of pension/annuity category, created from brackets
+w5_a_asfin			Shares						g28_1 - Has unit trusts, stocks or shares?
+w5_a_asfin_v			Shares_Amount						g28_2 - Current cash value of unit trust, stocks and shares
+w5_a_asfin_cat			Shares_Category						g28_cat - Cash value of unit trust/stocks/shares category, created from brackets
+w5_a_asacc			Bank_Account						g30_1 - Has a bank account?
+w5_a_asacc_v			Bank_Account_Balance						g30_2 - Current balance of your bank account
+w5_a_asacc_cat			Bank_Account_Category						g30_3_cat - Cash value of bank account category, created from brackets
+w5_a_dtacc_cat			Bank_Account_Overdraft_Category						g30_4_cat - Overdraft of bank account category, created from brackets
+w5_a_assell			Possessions_Net_Value						g31 - Net value of hh possessions including home (credit/breakeven/debt)
+w5_a_assell_v			Possessions_Net_Value_Balance						g32 - If net value of hh possessions is positive how much will be left over?
