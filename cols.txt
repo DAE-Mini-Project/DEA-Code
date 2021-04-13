@@ -159,8 +159,7 @@ w5_a_asfin			Shares						g28_1 - Has unit trusts, stocks or shares?
 w5_a_asfin_v			Shares_Amount					g28_2 - Current cash value of unit trust, stocks and shares
 w5_a_asfin_cat			Shares_Category				g28_cat - Cash value of unit trust/stocks/shares category, created from brackets
 w5_a_asacc			Bank_Account					g30_1 - Has a bank account?
-w5_a_asacc_v			Bank_Account_Balance				g30_2 - Current balance of your bank account
-w5_a_asacc_cat			Bank_Account_Category				g30_3_cat - Cash value of bank account category, created from brackets
+w5_a_asacc_v			Bank_Account_Balance				g30_2 - Current balance of your bank account	
 w5_a_dtacc_cat			Bank_Account_Overdraft_Category		g30_4_cat - Overdraft of bank account category, created from brackets
 w5_a_assell			Possessions_Net_Value				g31 - Net value of hh possessions including home (credit/breakeven/debt)
 w5_a_assell_v			Possessions_Net_Value_Balance			g32 - If net value of hh possessions is positive how much will be left over?
